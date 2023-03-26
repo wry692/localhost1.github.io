@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Kokoro;
+  font-style: normal;
+  font-weight: 400;
+  src: url("Шрифты/Kokoro/kokoro/Kokoro-Regular.ttf") format("truetype");
+}
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+body
+{
+  background-image: url(Графика/оригинал/главэкран.png);
+  background-size: 1500px 715px;
+}
+header, #menu{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 15%;
+}
+a {
+  display:block;
+  float:left;
+  width: 120px;
+  margin-top: 3%;
+  margin-left: 1%;
+  color: rgba(36, 20, 5, 1);
+  font-family: Kokoro, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+a:hover {
+  color: rgba(36, 20, 5, 0.6);
+}
+a:active {
+  color: rgba(36, 20, 5, 0.6);
+  background-image: url("Графика/оригинал/обводка.png");
+  background-size: 120px 30px;
+}
+a:visited {
+  text-decoration: underline;
+}
+#logo {
+  position: absolute;
+  float: left;
+  width: 5%;
+  margin-left:1%;
+  top: 35px;
+  bottom: 0px;
+}
+main {
+  margin-top: 10%;
+  width: 100%;
+  height: 70%;
+}
+#First-screen {
+  width: 100%;
+  height: 70%;
+}
+#photo {
+  position: absolute;
+  width: 207px;
+  height: 254.78px;
+  margin-left: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#text {
+  position: absolute;
+  width: 586px;
+  height: 280px;
+  right: 20%;
+  bottom: 32%;
+}
+#white {
+  width: 586px;
+  height: 280px;
+}
+#priv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 580px;
+  height: 270px;
+  margin-left: 1%;
+  right: 0;
+  top: 30px;
+}
+.priv1 {
+  width: 420px;
+  height: 80px;
+  margin-left: 4%;
+
+  font-family: "Kokoro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: rgba(36, 20, 5, 1);
+}
+.priv2 {
+  width: 550px;
+  height: 120px;
+  margin-left: 4%;
+  margin-bottom: 22%;
+
+  font-family: "Kokoro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: rgba(36, 20, 5, 1);
+}
+footer {
+  width: 0%;
+  height: 0%;
+}
