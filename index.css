@@ -2,7 +2,7 @@
   font-family: Kokoro;
   font-style: normal;
   font-weight: 400;
-  src: url("Шрифты/Kokoro/kokoro/Kokoro-Regular.ttf") format("truetype");
+  src: url("Shrifts/Kokoro-Regular.ttf") format("truetype");
 }
 }
 body, html {
@@ -11,7 +11,7 @@ body, html {
 }
 body
 {
-  background-image: url(Графика/оригинал/главэкран.png);
+  background-image: url(Graphics/original/главэкран.png);
   background-size: 1500px 715px;
 }
 header, #menu{
@@ -37,7 +37,7 @@ a:hover {
 }
 a:active {
   color: rgba(36, 20, 5, 0.6);
-  background-image: url("Графика/оригинал/обводка.png");
+  background-image: url("Graphics/original/обводка.png");
   background-size: 120px 30px;
 }
 a:visited {
